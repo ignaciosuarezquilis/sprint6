@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM cliente WHERE ((strftime('%Y', 'now') - strftime('%Y', dob )) - (strftime('%m-%d', 'now') < strftime('%m-%d', dob ))>50)

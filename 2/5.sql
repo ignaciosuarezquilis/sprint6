@@ -1,0 +1,1 @@
+SELECT loan_id,max(loan_total) FROM prestamo 

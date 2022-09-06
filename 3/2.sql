@@ -1,0 +1,1 @@
+SELECT customer_name,customer_surname,dob FROM cliente WHERE customer_surname like "%Z%"

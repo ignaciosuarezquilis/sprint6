@@ -1,0 +1,1 @@
+CREATE INDEX indice_dni ON cliente(customer_DNI)

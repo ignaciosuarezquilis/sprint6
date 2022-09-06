@@ -1,0 +1,1 @@
+SELECT * FROM prestamo WHERE substr(loan_date,6,2)="04" OR substr(loan_date,6,2)="06" OR substr(loan_date,6,2)="08"

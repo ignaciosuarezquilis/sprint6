@@ -1,0 +1,1 @@
+SELECT loan_type,sum(loan_total) AS loan_total_accu FROM prestamo GROUP BY loan_type

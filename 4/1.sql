@@ -1,0 +1,1 @@
+SELECT branch_name,count(cliente.branch_id) AS clientesxsucursal FROM cliente,sucursal GROUP BY branch_name ORDER BY count(cliente.branch_id) ASC
